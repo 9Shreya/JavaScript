@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-family: "Abril Fatface", cursive;
+}
+.one,
+.two {
+  font-weight: bolder;
+  font-size: 55px;
+
+  text-shadow: 3px 2px rgb(148, 187, 231);
+}
+#win {
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  color: rgb(3, 26, 15);
+  font-size: 60px;
+  margin-top: 0px;
+  font-weight: bolder;
+  text-shadow: 4px 4px rgb(231, 133, 20);
+  text-align: center;
+
+  padding: 30px;
+}
+.row {
+  background-image: url(dice-eyes-luck-game-705171.jpeg);
+  background-size: cover;
+}
+.but {
+  border-radius: 10px;
+  height: 50px;
+  width: 20%;
+
+  font-size: 20px;
+  font-weight: bolder;
+  box-shadow: 5px 5px rgb(190, 204, 243);
+  color: black;
+  background-color: rgb(175, 175, 173);
+  position: relative;
+  border: none;
+  outline: none;
+}
+.but:hover {
+  box-shadow: 5px 5px rgb(126, 125, 116);
+  color: rgb(126, 125, 116);
+  background-color: rgb(222, 231, 240);
+}
+#on,
+#to {
+  border-radius: 10%;
+}
